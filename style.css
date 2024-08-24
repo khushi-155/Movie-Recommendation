@@ -1,0 +1,185 @@
+body {
+    background-color: #eb6882;
+    color: #0a0408;
+    overflow-x: hidden;
+}
+#all_content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#half_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#appTitle {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
+}
+
+#genreForm, #playBtn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Fredoka One', sans-serif;
+   
+}
+#genreForm{
+    max-width: 1000px;
+    min-width: 500px;
+}
+#movieInfo {
+    width:  50%;
+    margin:  32px auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#movieInfo:after {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+#moviePoster, #movieText {
+    width:  50%;
+    float:  left;
+}
+
+img#moviePoster {
+    width:  100%;
+    height:  auto;
+    display:  block;
+    margin:  auto;
+}
+
+#movieText {
+    font-family: 'Questrial';
+    color: #FEFBEA;
+    line-height: 1.25;
+}
+
+#movieTitle, #movieOverview {
+    padding-left:  35px;
+    text-align: justify;
+}
+@media only screen and (max-width:1600px){
+  #genres{
+    padding: 5px;
+    font-size: 1rem;
+    width: 30%;
+  }
+  #genreForm label{
+    font-size: 3rem;
+  }
+}
+@media only screen  and (max-width:1000px){
+    #appTitle{
+        font-size: 3rem;
+    }
+    #genreForm label{
+        font-size: 2.8rem;
+      }
+    #moviePoster{
+        width: 55%;
+    }
+    #movieText{
+        width: 45%;
+    }
+    #movieInfo{
+        width: 90%;
+    }
+}
+@media only screen  and (max-width:606px){
+    #appTitle{
+        font-size: 2.5rem;
+    }
+    #genreForm label{
+        font-size: 2rem;
+      }
+      #movieTitle{
+        font-size: 1.6rem;
+      }
+      #movieOverview{
+        font-size: 0.8rem;
+      }
+}
+@media only screen  and (max-width:491px){
+    #appTitle{
+        font-size: 2rem;
+    }
+    #genreForm label{
+        font-size: 1.5rem;
+      }
+      #movieTitle{
+        font-size: 1rem;
+      }
+      #movieOverview{
+        font-size: 0.5rem;
+      }
+      #movieInfo{
+        max-width: 75%;
+      }
+}
+@media only screen  and (max-width:370px){
+    #appTitle{
+        font-size: 1.5rem;
+    }
+    #movieInfo{
+        max-width: 70%;
+      }
+}
+
+#playBtn {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #B97828;
+    color: #fdc238;
+    cursor:  pointer;
+}
+
+label {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+select {
+    width: 200px;
+    height: auto;
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+}
+
+#likeBtn {
+    background-color: #249e57;
+    color: darkgreen;
+}
+
+#dislikeBtn {
+    background-color: #c74a4a;
+    color: #910000;
+}
