@@ -1,6 +1,6 @@
 
 # Movie Recommendation App
-Link : 
+Link : https://khushi-155.github.io/Movie-Recommendation/ 
 
 ## Overview
 This is a Movie Recommendation App that uses The Movie Database (TMDb) API to provide movie recommendations based on user-selected genres. The application displays random movies from the selected genre along with movie details like poster, title, and overview.
